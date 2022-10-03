@@ -1,8 +1,74 @@
-.top{
-    background-color: yellow;
-    border: 5px;
-    border-color: black;
+*{
+    margin: 0; 
+    padding: 0;
 }
-.nav{
-    display: inline-block;
+body{
+    background-color: rgb(255, 255, 255);
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(151, 186, 192);
+    margin-bottom: 20PX;
+
+}
+header nav{
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+a { text-decoration: none; 
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+} 
+a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+.nombre{
+    color: aliceblue;
+}
+.wrapper {
+    width:90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.imgmain{
+    background-image: url(resources/programanding-min.png);
+    width: 150%;
+    height: 90vh;
+    justify-content: center;
+    z-index: 1;
+    
+}
+.presentacion{
+    display: flex;
+    z-index: 2;
+    margin-left: 550PX;
+    margin-top: 5px;
+   
+}
+.contenedor{
+    display: flex;
+}
+
+.notis{
+ 
+    margin-left: 28vw;
+    margin-top: 15vw;
+    width: 70vw;
+    position: absolute;
+    z-index: 2;
+}
+.type{
+    color: rgb(233, 229, 229);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.type2¨{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
 }
